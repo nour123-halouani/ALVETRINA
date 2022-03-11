@@ -1,0 +1,26 @@
+@import "./variables.module.scss";
+
+.barLabel {
+  font-family: Acumin Variable Concept;
+  display: inline;
+  color: $secondary;
+}
+
+.newsLink {
+  font-family: Acumin Variable Concept;
+  cursor: pointer;
+  color: $secondary;
+  text-decoration: none;
+  margin-left: 5px;
+
+  &:hover {
+    text-decoration: underline;
+    color: $secondary;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .barLabel {
+    display: none;
+  }
+}
